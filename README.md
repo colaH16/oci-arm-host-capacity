@@ -1,3 +1,7 @@
+Fork 이후 변경 사항.
+.env.example에 Telegram token 관련 설정 추가.
+src/OciApi.php에 IP/ hostname 설정 추가 (아직 변수로 구현하지 않음. src/OciApi.php에서 직접 수정 필요)
+
 # Resolving Oracle Cloud "Out of Capacity" issue and getting free VPS with 4 ARM cores / 24GB of memory
 
 <p align="center">
