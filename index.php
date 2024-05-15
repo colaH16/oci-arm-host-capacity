@@ -101,7 +101,6 @@ foreach ($availabilityDomains as $availabilityDomainEntity) {
 //                $notifier->notify($message);
 //            }
 ///////////////
-
         if (
             $e->getCode() === 500 &&
             strpos($message, 'InternalError') !== false &&
@@ -110,6 +109,8 @@ foreach ($availabilityDomains as $availabilityDomainEntity) {
             // trying next availability domain
             sleep(16);
             continue;
+        } elseif ($notifier->isSupported()) {
+            $notifier->notify($message);
         }
 
         // current config is broken
