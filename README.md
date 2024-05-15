@@ -4,7 +4,8 @@
 
 ![image](https://github.com/colaH16/oci-arm-host-capacity/assets/15865211/51851a06-b071-497d-9ab2-a43b5d3e015b)
 
-# Resolving Oracle Cloud "Out of Capacity" issue and getting free VPS with 4 ARM cores / 24GB of memory
+# Resolving Oracle Cloud "Out of Capacity" issue and getting free VPS with 4 ARM cores / 12GB of memory
+*You can change the instance's specification by .env*
 
 <p align="center">
   <a href="https://github.com/hitrov/oci-arm-host-capacity/actions"><img src="https://github.com/hitrov/oci-arm-host-capacity/workflows/Tests/badge.svg" alt="Test"></a>
