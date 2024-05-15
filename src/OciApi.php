@@ -68,7 +68,9 @@ class OciApi
     "createVnicDetails": {
         "assignPublicIp": false,
         "subnetId": "{$config->subnetId}",
-        "assignPrivateDnsRecord": true
+        "assignPrivateDnsRecord": true,
+        "hostnameLabel": "os2",
+        "privateIp": "10.123.12.2"
     },
     "agentConfig": {
         "pluginsConfig": [
